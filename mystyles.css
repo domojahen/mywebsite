@@ -31,7 +31,19 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  width: 180px;
 }
+
+
+li a, .button{
+	display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 180px;
+
+}
+
 
 
 
@@ -119,6 +131,13 @@ a.class2:hover {
 	background-color: darkred;
 	color: white;
 }
+
+
+a.button:hover {
+	background-color: darkred;
+	color: white;
+}
+
 
 
 
