@@ -31,16 +31,14 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 180px;
+  width: 170px;
 }
-
-
 li a, .button{
 	display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 180px;
+  width: 170px;
 
 }
 
@@ -145,21 +143,21 @@ h1{
 	color: #f95959;
 	text-align: center;
 	font-family: 'Courier New', monospace;
-	font-size: 30px;
+	font-size: 40px;
 }
 h2{
 	color: #ff9a3c;
-	font-size: 18px;
+	font-size: 25px;
 }
 h3{
 	color: #ff9a3c;
-	font-size: 16px;
+	font-size: 18px;
 }
 h4{
 	color: #ff9a3c;
 }
 p{
 	color: #e3e3e3;
-	font-size: 16px;
+	font-size: 18px;
 }
 
