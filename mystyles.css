@@ -3,6 +3,8 @@ body{
 	background-color: #233142;
 	margin: 10;
 	font-family: Verdana, sans-serif;
+	margin-right: 60px;
+  margin-left: 60px;
 }
 
 h1{
@@ -27,11 +29,6 @@ p{
 	font-size: 18px;
 }
 
-button_color{
-	background-color: blue;
-	color: white;
-}
-
 .center {
   display: block;
   margin-left: auto;
@@ -44,7 +41,7 @@ ul {
   margin: 5;
   padding: 0;
   overflow: hidden;
-  background-color: #233142;        #233142
+  background-color: #233142;
   top: 5;
   width: 100%;
 }
@@ -59,7 +56,7 @@ li a, .dropbtn {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 170px;
+  width: 160px;
 }
 
 li a, .button{
@@ -67,8 +64,7 @@ li a, .button{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 170px;
-
+  width: 160px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -131,10 +127,6 @@ a:hover, a:active {
   color: black;
 }
 
-a.class2:hover {
-	background-color: darkred;
-	color: white;
-}
 
 a.button:hover {
 	background-color: darkred;
