@@ -75,7 +75,7 @@ li a, .button{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 160px;
+  width: text;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -132,6 +132,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
+
 
 a.button:hover {
 	background-color: darkred;
