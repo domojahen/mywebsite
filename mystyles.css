@@ -5,20 +5,21 @@ body{
 	font-family: Verdana, sans-serif;
 	margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 100px;
 }
-
 h1{
 	color: #f95959;
 	text-align: center;
 	font-family: 'Courier New', monospace;
 	font-size: 40px;
+  font-size: 4vw;
 }
 h2{
-	color: #ff9a3c;
+	color: #f95959;
 	font-size: 25px;
 }
 h3{
-	color: #ff9a3c;
+	color: #f95959;
 	font-size: 18px;
 }
 h4{
@@ -29,11 +30,19 @@ p{
 	font-size: 18px;
 }
 
-.center {
+
+.text_center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 100%;
+}
+
+.image_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 ul {
@@ -48,6 +57,8 @@ ul {
 
 li {
   float: left;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 li a, .dropbtn {
@@ -68,13 +79,13 @@ li a, .button{
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: #e3e3e3;
-  color: black;
+  background-color: #ff9a3c;
+  color: darkred;
 }
 
 li a.active{
-	background-color: #e3e3e3;
-	color: black;
+	background-color: #ff9a3c;
+	color: darkred;
 }
 
 li.dropdown {
@@ -114,19 +125,13 @@ li.dropdown {
 
 a:link, a:visited {
   background-color: #233142;
-  color: white;
-  font-size: 15px;
-  padding: 10px 15px;
+  color: #ff9a3c;
+  font-size: 16px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
-
-a:hover, a:active {
-  background-color: #e3e3e3;
-  color: black;
-}
-
 
 a.button:hover {
 	background-color: darkred;
